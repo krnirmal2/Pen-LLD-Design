@@ -13,18 +13,18 @@ public class Pen {
       such as modifying a single type of pen.
    */
     //  Note 1 : Single clas define everything
-    private String brand;
-    private String name;
+    private final String brand;
+    private final String name;
 
     //NOTE 2:  add different pen penType GEL ,Ball ,Throwaway etc
-    private PenType penType;
-    private Double price;
+    private final PenType penType;
+    private final Double price;
     //NOTE 3:  add different Reefil and refile penType
-    private Refill refill;
-    private RefillType refillType;
+    private final Refill refill;
+    private final RefillType refillType;
 
-    private Ink ink;
-    private Nib nib;
+    private final Ink ink;
+    private final Nib nib;
 
     public Pen(String brand, String name, PenType penType, Double price, Refill refill, RefillType refillType, Ink ink, Nib nib) {
         this.brand = brand;
