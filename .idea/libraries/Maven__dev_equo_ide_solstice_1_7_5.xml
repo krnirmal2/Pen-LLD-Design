@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: dev.equo.ide:solstice:1.7.5" type="java-imported" external-system-id="Maven">
+    <properties groupId="dev.equo.ide" artifactId="solstice" version="1.7.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/equo/ide/solstice/1.7.5/solstice-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/equo/ide/solstice/1.7.5/solstice-1.7.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/equo/ide/solstice/1.7.5/solstice-1.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
