@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 public enum RefillType {
-    GELL,BALL;
+    GELL,BALL
 
 
 }
