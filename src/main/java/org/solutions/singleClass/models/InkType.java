@@ -4,4 +4,5 @@ public enum InkType {
     GEL,
     BALL,
     FOUNTAIN,
+
 }

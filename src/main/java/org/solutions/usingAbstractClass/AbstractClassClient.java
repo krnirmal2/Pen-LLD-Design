@@ -1,13 +1,7 @@
 package org.solutions.usingAbstractClass;
 
 import org.solutions.singleClass.models.*;
-import org.solutions.usingStrategiesPattern.FillInkStrategy.FillInkStrategy;
-import org.solutions.usingStrategiesPattern.FillInkStrategy.RefillableStrategy;
-import org.solutions.usingStrategiesPattern.Model.PenBody;
-import org.solutions.usingStrategiesPattern.Model.PenInk;
-import org.solutions.usingStrategiesPattern.Model.PenNib;
-import org.solutions.usingStrategiesPattern.WrittingStrategy.RoughWritingStrategy;
-import org.solutions.usingStrategiesPattern.WrittingStrategy.WritingStrategy;
+
 
 public class AbstractClassClient {
     //NOTE : Improvement
@@ -18,7 +12,6 @@ public class AbstractClassClient {
         Nib nib = new Nib(0.2, NibType.BALL);
         //Ink object
         Ink ink = new Ink("Red", 2, InkType.BALL);
-
 
         // create fountain pen which is already
         //RoughWritingStrategy for writting
